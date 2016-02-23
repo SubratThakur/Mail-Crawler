@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>web-crawler</groupId>
+  <artifactId>web-crawler</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>web-crawler</name>
+  <description>simple crawler to crawl and download all mails from a specific url and for specific year</description>
+  <modules>  
+    <module>crawler-services</module>
+    <module>crawler-webApp</module>
+  </modules>
+  
+  <properties>
+        <spring.version>4.0.1.RELEASE</spring.version>
+    </properties>
+    <dependencies>
+         <!-- Spring dependencies -->
+		   <dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-core</artifactId>
+		    <version>${spring.version}</version>
+		  </dependency>
+		
+		 <dependency>
+		   <groupId>org.springframework</groupId>
+		   <artifactId>spring-web</artifactId>
+		   <version>${spring.version}</version>
+		 </dependency>
+		
+		 <dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-webmvc</artifactId>
+		    <version>${spring.version}</version>
+		 </dependency>
+		 <dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+		<version>1.2.17</version>
+	</dependency>
+	<dependency>
+	<groupId>org.jsoup</groupId>
+	<artifactId>jsoup</artifactId>
+	<version>1.8.3</version>
+	</dependency>
+
+    </dependencies>
+</project>

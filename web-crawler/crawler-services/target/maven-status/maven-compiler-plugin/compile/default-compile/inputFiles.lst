@@ -1,0 +1,11 @@
+/home/subratt/Workspace/web-crawler/crawler-services/src/main/java/com/pramati/url/parser/UrlParser.java
+/home/subratt/Workspace/web-crawler/crawler-services/src/main/java/com/pramati/crawler/start/CrawlerEntry.java
+/home/subratt/Workspace/web-crawler/crawler-services/src/main/java/com/pramati/mail/download/impl/MailDownloaderAbstractImpl.java
+/home/subratt/Workspace/web-crawler/crawler-services/src/main/java/com/pramati/mail/crawler/impl/AbstractCrawlerService.java
+/home/subratt/Workspace/web-crawler/crawler-services/src/main/java/com/pramati/mail/filter/IMailFilter.java
+/home/subratt/Workspace/web-crawler/crawler-services/src/main/java/com/pramati/mail/crawler/Crawler.java
+/home/subratt/Workspace/web-crawler/crawler-services/src/main/java/com/pramati/mail/download/impl/DownloaderThread.java
+/home/subratt/Workspace/web-crawler/crawler-services/src/main/java/com/pramati/mail/filter/impl/DateBasedFilter.java
+/home/subratt/Workspace/web-crawler/crawler-services/src/main/java/com/pramati/mail/download/MailDownloader.java
+/home/subratt/Workspace/web-crawler/crawler-services/src/main/java/com/pramati/url/parser/impl/UrlParserImpl.java
+/home/subratt/Workspace/web-crawler/crawler-services/src/main/java/com/pramati/mail/crawler/impl/CrawlerThread.java
